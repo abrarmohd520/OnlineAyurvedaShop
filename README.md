@@ -1,7 +1,7 @@
 # Online Ayurveda Shop Application
 
 #### A full-stack Online Ayurveda Shop web application using Spring Boot and Angular. 
-This is a Single Page Appliaction with client-side rendering. It includes [backend](https://github.com/abrarmohd520/OnlineAyurvedaShop/tree/main/backend) and [frontend](hhttps://github.com/abrarmohd520/OnlineAyurvedaShop/tree/main/frontend) two seperate projects on different branches.
+This is a Single Page Appliaction with client-side rendering. It includes [backend](https://github.com/abrarmohd520/OnlineAyurvedaShop/tree/main/backend) and [frontend](https://github.com/abrarmohd520/OnlineAyurvedaShop/tree/main/frontend) two seperate projects on different branches.
 The frontend client makes API calls to the backend server when it is running.
 
 ## Screenshot
