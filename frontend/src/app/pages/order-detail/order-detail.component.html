@@ -19,10 +19,10 @@
         </th>
         <td class="align-middle"><a routerLink="/seller/product/{{item.productId}}/edit">{{item.productName}}</a></td>
         <td class="align-middle">{{item.productDescription}}</td>
-        <td class="align-middle">{{item.productPrice | currency}}</td>
+        <td class="align-middle">{{item.productPrice | currency: 'INR'}}</td>
         <td class="align-middle">{{item.count}}</td>
-        <td class="align-middle">{{(item.productPrice * item.count | currency)}}</td>
+        <td class="align-middle">{{(item.productPrice * item.count | currency: 'INR')}}</td>
     </tr>
     </tbody>
 </table>
-<h5 style="display: inline" class="float-right">Total: {{(order$ | async)?.orderAmount | currency}}</h5>
+<h5 style="display: inline" class="float-right">Total: {{(order$ | async)?.orderAmount | currency: 'INR'}}</h5>

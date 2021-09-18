@@ -24,7 +24,7 @@
         <td class="align-middle">{{order.buyerEmail}}</td>
         <td class="align-middle">{{order.buyerPhone}}</td>
         <td class="align-middle">{{order.buyerAddress}}</td>
-        <td class="align-middle">{{order.orderAmount | currency}}</td>
+        <td class="align-middle">{{order.orderAmount | currency: 'INR'}}</td>
         <td class="align-middle">{{order.createTime | date}}</td>
         <td class="align-middle">{{OrderStatus[order.orderStatus]}}</td>
         <td class="align-middle">

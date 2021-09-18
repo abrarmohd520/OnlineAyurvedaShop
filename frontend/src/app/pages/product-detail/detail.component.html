@@ -11,7 +11,7 @@
             <p class="card-test"><strong>Description: </strong>{{productInfo?.productDescription}}</p>
             <p class="card-text">
               <strong>Price: </strong>
-              <label id="price">{{productInfo?.productPrice | currency}}</label>
+              <label id="price">{{productInfo?.productPrice | currency: 'INR'}}</label>
             </p>
             <p class="card-text"><strong>Stock: </strong>{{productInfo?.productStock}}</p>
 
@@ -29,7 +29,7 @@
 
 
             <p class="card-text"><strong>Subtotal: </strong>
-              <label id="subtotal">{{count * productInfo?.productPrice | currency}}</label>
+              <label id="subtotal">{{count * productInfo?.productPrice | currency: 'INR'}}</label>
             </p>
           </div>
           <button type="submit" [disabled]="!form.form.valid" *ngIf="productInfo?.productStatus == 0; else offBlock"
