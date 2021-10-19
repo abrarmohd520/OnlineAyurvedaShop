@@ -8,7 +8,7 @@
         <version>2.2.0.BUILD-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>me.zhulin</groupId>
+    <groupId>com.cg</groupId>
     <artifactId>shop-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>shop-api</name>
