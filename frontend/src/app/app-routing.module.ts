@@ -56,7 +56,8 @@ const routes: Routes = [
 @NgModule({
     declarations: [],
     imports: [
-        RouterModule.forRoot(routes)//{onSameUrlNavigation: 'reload'}
+        RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' }) //{onSameUrlNavigation: 'reload'}
+//{onSameUrlNavigation: 'reload'}
     ],
     exports: [RouterModule]
 })
